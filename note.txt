@@ -1,0 +1,29 @@
+### NuxtJS is available Node Version 16 !!! ###
+
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+
+$ nvm install 16
+
+---
+# Create Project
+$ npx create-nuxt-app dadjokes
+... progresses creating project ...
+
+----------------------------------------------------------------------------------
+
+What is NuxtJS?
+- Framework that offers server side rendering for Vue applications 
+    (Similar to NextJS for React)
+- Main Advantages:
+    - Universal apps / Server side rendering
+    - SEO optimization
+    - Control of head, title, meta, etc
+    - Simple page routing
+
+Other Features
+- Bundled with Vue-Router, Vuex, Vue-Meta and more
+- Choice of universal or SPA
+- Choice to include Express or other backend framework
+- Choice to include Bootstrap or other UI framework
+- Automatic code-splitting, Babel transpile, Sass integration
+- Easy build 'nuxt generate' creates 'dist' folder for deployment
